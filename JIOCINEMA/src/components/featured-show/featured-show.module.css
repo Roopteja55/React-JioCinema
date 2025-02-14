@@ -1,0 +1,34 @@
+.featuredShow {
+    width: 22%;
+    height: 500px;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.featuredShow > img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.movieTitle {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(6, 7, 7, 0.5);
+    position: absolute;
+    align-self: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.movieTitle:hover {
+    height: 200px;
+}
